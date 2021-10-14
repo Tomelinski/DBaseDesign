@@ -1,0 +1,12 @@
+{
+  "name": "dbase6206",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "repository": "",
+  "author": "Tomelinski <tomzielinski@live.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2"
+  }
+}
