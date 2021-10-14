@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "repository": "",
+  "repository": "https://github.com/Tomelinski/DBaseDesign.git",
   "author": "Tomelinski <tomzielinski@live.ca>",
   "license": "MIT",
   "dependencies": {
