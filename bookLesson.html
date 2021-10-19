@@ -82,7 +82,7 @@
                         <label for="lessonTime">Choose a Time for the Lesson:</label>
                         <div class="row">
                           <div class="col-md-12">
-                            <input type="datetime-local" id="lessonTime" name="lessonTime">
+                            <input type="datetime-local" id="lessonTime" name="lessonTime" min="2021-10-22T08:00:00">
                           </div>
                         </div>
                       </div>
@@ -91,7 +91,8 @@
                         <label for="lessonLength">Lesson Length:</label>
                         <div class="row">
                           <div class="col-md-12">
-                            <select name="lessonLength" id="lessonLength">
+                            <select name="lessonLength" id="lessonLength" required>
+                            <option value="0">-</option>
                             <option value="1">30 minutes</option>
                             <option value="2">1 hour</option>
                             <option value="3">2 hours</option>
@@ -104,7 +105,8 @@
                         <label for="lessonTypes">Choose Type of Lesson:</label>
                         <div class="row">
                           <div class="col-md-12">
-                            <select name="lessonTypes" id="lessonTypes">
+                            <select name="lessonTypes" id="lessonTypes" required>
+                            <option value="0">-</option>
                             <option value="1">Piano</option>
                             <option value="2">Guitar</option>
                             <option value="3">Trumpet</option>
@@ -117,7 +119,8 @@
                         <label for="instructors">Choose an Instructor:</label>
                         <div class="row">
                           <div class="col-md-12">
-                            <select name="instructors" id="instructors">
+                            <select name="instructors" id="instructors" required>
+                            <option value="0">-</option>
                             <option value="1">James Hancock</option>
                             <option value="2">Johan Bach</option>
                             <option value="3">Amadeus Mozart</option>
